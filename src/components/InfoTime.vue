@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h3>CInfo about available timslots</h3> <br>
+    <p>Regular slots          <span id="vert">Premium slots</span>          <span id="violet">Prime slots</span></p>
   </div>
 </template>
 
@@ -15,5 +16,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+#vert {
+  color: green;
+}
+#violet {
+  color: violet;
+}
 </style>
