@@ -1,15 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <DateInput />
+  <TimeInput />
+  <InfoTime />
+  <OtherAction />
+  <Button />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import DateInput from './components/DateInput.vue'
+import TimeInput from './components/TimeInput.vue'
+import InfoTime from './components/InfoTime.vue'
+import OtherAction from './components/OtherAction.vue'
+import Button from './components/Button.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    DateInput,
+    TimeInput,
+    InfoTime,
+    OtherAction,
+    Button
   }
 }
 </script>
